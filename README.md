@@ -1,6 +1,9 @@
 # Video-StoryTelling-using-Memorability-scores
 
-##Video Memorability Model
+The overall architecture consists of two main models the video memorability model and the video captioning model.We have used memento10k dataset for training both these  models and used Video Story dataset for testing.
+
+**Video Memorability Model**
+
 Various regression methods including linear regression,SVR,random forest and ridge regression are combined using stacking method.
 Stacking is an ensemble learning technique that involves combining multiple models to improve the overall performance of a prediction task. In stacking, the predictions of multiple models are combined using another model, called a meta-model, which learns to weight the predictions of the base models.
 
