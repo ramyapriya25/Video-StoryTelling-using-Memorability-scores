@@ -1,4 +1,6 @@
 # Video-StoryTelling-using-Memorability-scores
+
+##Video Memorability Model
 Various regression methods including linear regression,SVR,random forest and ridge regression are combined using stacking method.
 Stacking is an ensemble learning technique that involves combining multiple models to improve the overall performance of a prediction task. In stacking, the predictions of multiple models are combined using another model, called a meta-model, which learns to weight the predictions of the base models.
 
