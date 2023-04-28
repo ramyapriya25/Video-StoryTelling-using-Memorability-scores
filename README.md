@@ -50,3 +50,9 @@ https://medium.com/analytics-vidhya/video-captioning-with-keras-511984a2cfff
 https://github.com/CryoliteZ/Video2Text
 
 https://github.com/PacktPublishing/Intelligent-Projects-Using-Python/tree/master/Chapter05
+
+https://pypi.org/project/PyPrind/
+https://en.wikipedia.org/wiki/Keras
+https://www.tensorflow.org/
+https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient
+https://github.com/dazcona/memorability
