@@ -21,6 +21,7 @@ is run on default setup except normalize set to true. SVR and Rigid Regressing i
 Maximum depth of the Random Forest decision trees is set to 10. 
 
 **Video Captioning model**
+
 In video captioning, LSTM models can be used to learn the mapping between
 the visual features of a video and their corresponding textual descriptions. The
 visual features are extracted from the frames of the video using techniques such
