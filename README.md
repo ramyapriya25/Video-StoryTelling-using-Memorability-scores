@@ -57,7 +57,9 @@ issue, we’ll feed the decoder the captions while using the encoder to input th
 video features.
 
 Our Results for Video Story dataset:
+
 ![image](https://user-images.githubusercontent.com/69419671/235332487-e74d6710-a044-45d4-a3ac-b43a1a40386a.png)
+
 ![image](https://user-images.githubusercontent.com/69419671/235332498-6ea62572-9263-4e6c-af84-e37869c0b0eb.png)
 
 
