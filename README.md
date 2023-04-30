@@ -1,6 +1,6 @@
 # Video-StoryTelling-using-Memorability-scores
 
-The overall architecture consists of two main models the video memorability model and the video captioning model.We have used memento10k dataset for training both these  models and used Video Story dataset for testing. To obtain sthe story of a given video follow the below steps:
+The overall architecture consists of two main models the video memorability model and the video captioning model.We have used memento10k dataset for training both these  models and used Video Story dataset for testing. To obtain the story of a given video follow the below steps:
 1. Split the given video into n number of equal segments - use the video splitting python notebook.
 2. Extract the HMP and C3D feature for each of the splitted segments usignthe HMP and C3d notebooks.
 3. Predict the captions for each of the ideo segment using the video captioning model.
