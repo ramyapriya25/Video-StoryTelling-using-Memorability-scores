@@ -1,6 +1,16 @@
 # Video-StoryTelling-using-Memorability-scores
 
-The overall architecture consists of two main models the video memorability model and the video captioning model.We have used memento10k dataset for training both these  models and used Video Story dataset for testing.
+The overall architecture consists of two main models the video memorability model and the video captioning model.We have used memento10k dataset for training both these  models and used Video Story dataset for testing. To obtain sthe story of a given video follow the below steps:
+1. Split the given video into n number of equal segments - use the video splitting python notebook.
+2. Extract the HMP and C3D feature for each of the splitted segments usignthe HMP and C3d notebooks.
+3. Predict the captions for each of the ideo segment using the video captioning model.
+4. Use the HMP,C3D and caption to predict the memorability scores of each of the segments using the regression methods in video memorability model.
+5. Discard the videos with low meorability scores and combine the captions of the remaining video segments in order.
+
+We have used the Memento10k dataset for training the video captioning model and video memorability model and Video Story dataset for testing the whole project.
+
+![Overall final](https://user-images.githubusercontent.com/69419671/235332386-f56da015-3903-4769-9d0c-90470ced4030.png)
+
 
 **Video Memorability Model**
 
@@ -45,6 +55,11 @@ training data is fed one by one until ’eos’.
 The decoder cell’s starting state is always the encoder cell’s final state. For our
 issue, we’ll feed the decoder the captions while using the encoder to input the
 video features.
+
+Our Results for Video Story dataset:
+![overall ROUGE](https://user-images.githubusercontent.com/69419671/235332411-972e7992-0346-4ad5-b2bf-466e6f4729ee.png)
+![overall BLEU](https://user-images.githubusercontent.com/69419671/235332426-4a3e2b7b-439d-46f3-b01b-7218c619bbdd.png)
+
 
 REFERENCES
 https://medium.com/analytics-vidhya/video-captioning-with-keras-511984a2cfff
