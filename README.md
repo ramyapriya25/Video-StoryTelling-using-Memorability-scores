@@ -1,4 +1,4 @@
-# Video-StoryTelling-using-Memorability-scores
+# Video-StoryTelling-using-Memorability-scores 
 
 The overall architecture consists of two main models the video memorability model and the video captioning model.We have used memento10k dataset for training both these  models and used Video Story dataset for testing. To obtain the story of a given video follow the below steps:
 1. Split the given video into n number of equal segments - use the video splitting python notebook.
@@ -25,19 +25,9 @@ The predictions from the base models are then used as inputs for the meta-model,
 
 **Video Captioning model**
 
-In video captioning, LSTM models can be used to learn the mapping between
-the visual features of a video and their corresponding textual descriptions. The
-visual features are extracted from the frames of the video using techniques such
-as convolutional neural networks (CNNs) , and the textual descriptions can be
-represented as sequences of words or phrases.
-The LSTM model takes the visual features as input and generates a sequence of
-words that describe the visual content of the video. The model is trained on a
-large dataset of video-caption pairs, and it learns to generate captions that are
-semantically and grammatically correct.
-To use LSTM in video captioning, we have implemented the model using deep
-learning frameworks such as TensorFlow or PyTorch. The input to the model is a
-sequence of visual features extracted from the frames of the video, and the output
-is a sequence of words that describe the visual content of the video.
+In video captioning, LSTM models can be used to learn the mapping between the visual features of a video and their corresponding textual descriptions. The
+visual features are extracted from the frames of the video using techniques such as convolutional neural networks (CNNs) , and the textual descriptions can be
+represented as sequences of words or phrases. The LSTM model takes the visual features as input and generates a sequence of words that describe the visual content of the video. The model is trained on a large dataset of video-caption pairs, and it learns to generate captions that are semantically and grammatically correct. To use LSTM in video captioning, we have implemented the model using deep learning frameworks such as TensorFlow or PyTorch. The input to the model is a sequence of visual features extracted from the frames of the video, and the output is a sequence of words that describe the visual content of the video.
 
 
 REFERENCES
